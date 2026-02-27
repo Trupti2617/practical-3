@@ -1,59 +1,44 @@
-# practical-3
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tasty Bites Restaurant</title>
+    <title>Royal Taste Restaurant</title>
 </head>
 <body>
-
-    <!-- Header -->
+     <!-- Header Section -->
     <header>
-        <h1>Tasty Bites Restaurant</h1>
+        <h1 align="center">Royal Taste Restaurant</h1>
         <marquee behavior="scroll" direction="left">
-            Welcome to Tasty Bites – Enjoy Delicious Food Every Day!
+            Welcome to Royal Taste – Enjoy Delicious Food & Great Ambience!
         </marquee>
-        <nav>
-            <a href="#menu">Menu</a> |
-            <a href="#about">About Us</a> |
-            <a href="#contact">Contact</a>
-        </nav>
+        <hr>
     </header>
-
-  <!-- Menu Section -->
-    <section id="menu">
+     <!-- Menu Section -->
+    <section>
         <h2>Our Menu</h2>
-
-        <h3>Veg Specials (Ordered List)</h3>
-        <ol>
-            <li>Paneer Butter Masala</li>
-            <li>Veg Biryani</li>
-            <li>Masala Dosa</li>
-        </ol>
-
-        <h3>Non-Veg Specials (Unordered List)</h3>
+        <!-- Unordered List -->
+        <h3>Indian Cuisine</h3>
         <ul>
-            <li>Chicken Curry</li>
-            <li>Mutton Biryani</li>
-            <li>Fish Fry</li>
+            <li>Paneer Butter Masala - ₹250</li>
+            <li>Chicken Biryani - ₹300</li>
+            <li>Butter Naan - ₹40</li>
         </ul>
-
-        <h3>Beverages (Description List)</h3>
+        <!-- Ordered List -->
+        <h3>Italian Cuisine</h3>
+        <ol>
+            <li>Margherita Pizza - ₹350</li>
+            <li>White Sauce Pasta - ₹280</li>
+            <li>Garlic Bread - ₹150</li>
+        </ol>
+        <!-- Description List -->
+        <h3>Special Items</h3>
         <dl>
-            <dt>Cold Coffee</dt>
-            <dd>Chilled coffee with ice cream</dd>
-
-            <dt>Fresh Lime Juice</dt>
-            <dd>Refreshing lemon drink</dd>
+            <dt><b>Tandoori Platter</b></dt>
+            <dd>A mix of grilled chicken, paneer and vegetables.</dd>
+            <dt><b>Chocolate Lava Cake</b></dt>
+            <dd>Warm chocolate cake with melting center.</dd>
         </dl>
     </section>
-
-    <!-- Image Section -->
-    <section>
-        <h2>Our Special Dish</h2>
-        <img src="https://via.placeholder.com/300x200"
-             alt="Restaurant Special Dish"
-             width="300" height="200">
-    </section>
+    <hr>
 </body>
 </html>
